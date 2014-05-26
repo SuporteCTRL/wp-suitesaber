@@ -1,11 +1,11 @@
 <?php 
 /**
- * Plugin Name: Web Librarian WP Plugin
- * Plugin URI: http://www.deepsoft.com/WebLibrarian
+ * Plugin Name: WP-Suíte Saber
+ * Plugin URI: http://suitesaber.org
  * Description: A plugin that implements a web-based library catalog and circulation System
  * Version: 3.2.10.3
- * Author: Robert Heller
- * Author URI: http://www.deepsoft.com/
+ * Author: Control Informação e Documentação
+ * Author URI: http://www.control.com.br
  *
  *  Web Librarian WP Plugin
  *  Copyright (C) 2011  Robert Heller D/B/A Deepwoods Software
