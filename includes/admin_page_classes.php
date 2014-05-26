@@ -180,6 +180,9 @@ class WEBLIB_AdminPages {
 	     <td><select id="aws_regiondom" 
 			 name="aws_regiondom" 
 			 style="width:75%">
+			<option value="br"<?php
+			if ($aws_regiondom == 'br')
+			  echo 'selected="selected"'; ?>><?php _e('Brazil','web-librarian'); ?></option>
 		   <option value="ca"<?php
 			if ($aws_regiondom == 'ca')
 			  echo 'selected="selected"'; ?>><?php _e('Canada','web-librarian'); ?></option>
@@ -189,6 +192,7 @@ class WEBLIB_AdminPages {
                    <option value="de"<?php
 			if ($aws_regiondom == 'de')
 			  echo 'selected="selected"'; ?>><?php _e('Germany','web-librarian'); ?></option>
+			  
                    <option value="es"<?php
                         if ($aws_regiondom == 'es')
                           echo 'selected="selected"'; ?>><?php _e('Spain','web-librarian'); ?></option>
